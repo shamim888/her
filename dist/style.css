@@ -1928,8 +1928,55 @@ video {
   background-repeat: no-repeat;
 }
 
+.custom-bg-2{
+  background-image: url('../src/assets/image/home-five-image/bg1.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.custom-bg-3{
+  background-image: url('../src/assets/image/error/error-banner.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .custom-font{
   font-family: 'Oswald', sans-serif;
+}
+
+.custom-font-2{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.product-banner{
+  background-image: url('../src/assets/image/product-img/product-bg.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.active {
+  border-bottom: 2px solid #52BBDC;
+}
+
+.slide-info{
+  animation: fadeEffect 1.3s;
+}
+
+@keyframes fadeEffect {
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+}
+
+.hidden-text{
+  display: none;
 }
 
 .hover\:scale-105:hover{
